@@ -31,7 +31,7 @@
         "sort-packages": true
     },
     "scripts": {
-        "code-style:check": "vendor/bin/pint --check",
+        "code-style:check": "vendor/bin/pint --test",
         "code-style:fix": "vendor/bin/pint",
         "analyse": "vendor/bin/phpstan analyse",
         "test": "vendor/bin/phpunit",
